@@ -5,8 +5,6 @@ import { PDFLoader } from "langchain/document_loaders/fs/pdf";
 import { OpenAIEmbeddings } from "langchain/embeddings/openai";
 import { PineconeStore } from "langchain/vectorstores/pinecone";
 import { getPineconeClient } from "@/lib/pinecone";
-import { PineconeLibArgs } from "langchain/vectorstores/pinecone";
-import { undefined } from "zod";
 
 const f = createUploadthing();
 

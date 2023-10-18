@@ -4,10 +4,11 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "prisma generate && next build",
     "start": "next start",
     "lint": "next lint",
-    "format": "prettier --write \"**/*.{js,ts,tsx}\""
+    "format": "prettier --write \"**/*.{js,ts,tsx}\"",
+    "postinstall": "prisma generate"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.3.2",
@@ -15,6 +16,7 @@
     "@mantine/hooks": "^7.1.3",
     "@pinecone-database/pinecone": "^1.0.1",
     "@prisma/client": "^5.4.2",
+    "@radix-ui/react-avatar": "^1.0.4",
     "@radix-ui/react-dialog": "^1.0.5",
     "@radix-ui/react-dropdown-menu": "^2.0.6",
     "@radix-ui/react-progress": "^1.0.3",
@@ -37,6 +39,7 @@
     "date-fns": "^2.30.0",
     "eslint": "8.50.0",
     "eslint-config-next": "13.5.4",
+    "fs": "^0.0.1-security",
     "i": "^0.3.7",
     "langchain": "^0.0.153",
     "lucide-react": "^0.284.0",
