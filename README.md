@@ -1,8 +1,9 @@
-# DocuChat—A SaaS to revolutionize the traditional data processing of PDFs with AI.
+# DocuChat — A SaaS to revolutionize the traditional data processing of PDFs with AI.
 
 Built with the Next.js 13.5 App Router, tRPC, TypeScript, Prisma & Tailwind
 
-![Project Image](https://github.com/palashb01/DocuChat/blob/master/public/thumbnail.png)
+<img width="1084" alt="Screenshot 2023-10-18 at 1 28 46 PM" src="https://github.com/palashb01/DocuChat/assets/66828942/93ba31b6-ff8a-43d9-afea-290cc9098072">
+
 
 ## Features
 
