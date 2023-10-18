@@ -46,8 +46,8 @@ const BillingForm = ({ subscriptionPlan }: BillingFormProps) => {
           <CardHeader>
             <CardTitle>Subscription Plan</CardTitle>
             <CardDescription>
-              You are currently on the <strong>{subscriptionPlan.name}</strong>{" "}
-              plan.
+              You are currently on the{" "}
+              {subscriptionPlan.isSubscribed ? "PRO" : "FREE"} plan.
             </CardDescription>
           </CardHeader>
 

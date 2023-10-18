@@ -1,0 +1,2 @@
+-[] : Implement the PRO version with the uploadThing library.
+-[] : Implement a note feature.
