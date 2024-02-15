@@ -3,6 +3,7 @@ import MaxWidthWrapper from "@/components/MaxWidthWrapper";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { buttonVariants } from "@/components/ui/button";
+import { RegisterLink } from "@kinde-oss/kinde-auth-nextjs/server";
 
 export default function Home() {
   return (
@@ -22,16 +23,14 @@ export default function Home() {
           Simply upload a PDF and start asking your questions right away.
         </p>
 
-        <Link
+        <RegisterLink
           className={buttonVariants({
             size: "lg",
             className: "mt-5",
           })}
-          href="/dashboard"
-          target="_blank"
         >
           Get Started <ArrowRight className="ml-2 h-5 w-5" />
-        </Link>
+        </RegisterLink>
       </MaxWidthWrapper>
       {/* value proposition section*/}
       <div>
